@@ -5,11 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.min.css">
+    <meta name="description" content="Website with a lot of recipes. Simple choose to cook tasty dishes">
     <title>Trendy Food</title>
 </head>
 
 <body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__heading">
+                Trendy Food
+            </h1>
+            <form class="search">
+                <input type="text" class="search__input" placeholder="Search the best dish for you...">
+                <button class="btn search__btn">
+                    <span class="search__span">Search</span>
+                </button>
+            </form>
+            <div class="like">
+                <div class="like__heart-box">
+                    <svg class="like__icon">
+                        <use href="img/icons.min.svg#icon-heart"></use>
+                    </svg>
+                </div>
+                <div class="like__box-list">
+                    <ul class="like__list">
+                    </ul>
+                </div>
+            </div>
+        </header>
 
+        <main class="main">
+
+            <div class="results">
+                <ul class="results__list">
+                </ul>
+                <div class="results__pages">
+
+                </div>
+            </div>
+            <div class="recipe">
+
+            </div>
+            <div class="shopping">
+                <h2 class="shopping__heading-secondary">
+                    Your Shopping List
+                </h2>
+                <ul class="shopping__list"></ul>
+            </div>
+        </main>
+        <footer class="copyright">
+            <p class="copyright__paragraph"> &copy; Łukasz Nowakowski. API</p>
+            <a href="https://forkify-api.herokuapp.com/" class="copyright__link" target="_blank">forkify-api</a>
+        </footer>
+    </div>
 </body>
 
 </html>
