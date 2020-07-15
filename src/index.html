@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <meta name="description" content="Website with a lot of recipes. Simple choose to cook tasty dishes">
     <title>Trendy Food</title>
 </head>
@@ -16,7 +16,7 @@
                 Trendy Food
             </h1>
             <form class="search">
-                <input type="text" class="search__input" placeholder="Search the best dish for you...">
+                <input type="text" class="search__input">
                 <button class="btn search__btn">
                     <span class="search__span">Search</span>
                 </button>
@@ -34,28 +34,98 @@
             </div>
         </header>
 
-        <main class="main">
+        <div class="results">
+            <ul class="results__list">
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <img src="img/test-1.jpg" alt="Test">
+                        <div class="results__description">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="results__list">
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <img src="img/test-2.jpg" alt="Test">
+                        <div class="results__description">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="results__list">
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <img src="img/test-3.jpg" alt="Test">
+                        <div class="results__description">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="results__list">
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <img src="img/test-3.jpg" alt="Test">
+                        <div class="results__description">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="results__list">
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <img src="img/test-3.jpg" alt="Test">
+                        <div class="results__description">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="results__list">
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <img src="img/test-3.jpg" alt="Test">
+                        <div class="results__description">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
 
-            <div class="results">
-                <ul class="results__list">
-                </ul>
-                <div class="results__pages">
+            <div class="results__pages">
+                <button class="btn results__btn results__btn--prev">
+                    <span>Page 1</span>
+                </button>
+                <button class="btn results__btn results__btn--prev">
+                    <span>Page 3</span>
+                </button>
+            </div>
+        </div>
 
-                </div>
-            </div>
-            <div class="recipe">
 
-            </div>
-            <div class="shopping">
-                <h2 class="shopping__heading-secondary">
-                    Your Shopping List
-                </h2>
-                <ul class="shopping__list"></ul>
-            </div>
-        </main>
-        <footer class="copyright">
-            <p class="copyright__paragraph"> &copy; Łukasz Nowakowski. API</p>
-            <a href="https://forkify-api.herokuapp.com/" class="copyright__link" target="_blank">forkify-api</a>
+
+        <div class="recipe">
+
+        </div>
+        <div class="shopping">
+            <h2 class="shopping__heading-secondary">
+                Your Shopping List
+            </h2>
+            <ul class="shopping__list"></ul>
+        </div>
+        <footer class="footer">
+            <p class="footer__paragraph"> &copy; Łukasz Nowakowski. API</p>
+            <a href="https://forkify-api.herokuapp.com/" class="footer__link" target="_blank">forkify-api</a>
         </footer>
     </div>
 </body>

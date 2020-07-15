@@ -1,6 +1,14 @@
 .btn {
     background-color: transparent;
+    font-family: 'Lato-Bold';
+    text-transform: uppercase;
+    align-items: center;
     outline: none;
     border: 0;
     cursor: pointer;
+    font-size: 1.4rem;
+
+    &:focus {
+        outline: none;
+    }
 }
